@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* titolo e logo */
+
+.header > img{
+  display: inline-block;
+}
+
+.header > h1{
+  display: inline-block;
+  font-size: 60px;
+}
+/* titolo e logo */
+.container-big{
+  background-color: #c4c4ce;
+  padding:2% 10% 10%;
+}
+/* paragrafo button */
+.add-select{
+  border: 1px solid #c4c4ce;
+  width: 75%;
+  margin: 0 auto;
+  background-color: white;
+  padding-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#task{
+  border-radius: 5px;
+  background-color: #00b6ff;
+  color: white;
+  border: none;
+}
+
+#section{
+  border-radius: 5px;
+  background-color: white;
+  color: grey;
+  border-color: #dee2e2;
+}
+/* paragrafo button */
+
+/* body Website */
+.container{
+  border: 1px solid #c4c4ce;
+  width: 75%;
+  margin: 0 auto;
+  background-color: white;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 12%;
+}
+
+strong{
+  font-size: 25px;
+}
+
+strong::before{
+  content:' \25BC';
+  font-size: 15px;
+}
+
+.check::before{
+  content: ' \2713';
+  color: #1ae50b;
+  border: 1px solid #1ae50b;
+  border-radius: 50%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.cross::before{
+  content: ' \2717';
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.padding{
+  padding-top: 40px;
+}
+
+.button-area{
+  border-radius: 10px;
+  color: white;
+}
+
+/* color button list */
+.editorial{
+  background-color: #00b6ff;
+  border: none;
+}
+
+#q1-goals{
+  background-color: #e12ffc;
+  border: none;
+}
+
+#recruiting{
+  background-color: #0be571;
+  border: none;
+}
+
+#mobile{
+  background-color: #f99909;
+  border: none;
+}
+
+#website{
+  background-color: #e585cd;
+  border: none;
+}
+
+#sales{
+  background-color: #a1d30a;
+  border: none;
+}
+/* color button list */
+
+li{
+  list-style: none;
+}
+/* body Website */
