@@ -6,12 +6,14 @@
 /* titolo e logo */
 
 .header > img{
-  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .header > h1{
   display: inline-block;
   font-size: 60px;
+  vertical-align: middle;
 }
 /* titolo e logo */
 .container-big{
@@ -31,9 +33,9 @@
 
 #task{
   border-radius: 5px;
+  border-color: #00b6ff; 
   background-color: #00b6ff;
   color: white;
-  border: none;
 }
 
 #section{
